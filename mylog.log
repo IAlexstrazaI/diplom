@@ -1,0 +1,311 @@
+2023-05-10 17:37:35,376 - DEBUG - CreateTable: 95 - ECBData создана.
+2023-05-10 17:37:35,378 - DEBUG - CreateTable: 95 - CBRData создана.
+2023-05-10 17:37:35,378 - DEBUG - CreateTable: 95 - NBGData создана.
+2023-05-10 17:37:35,379 - DEBUG - CreateTable: 95 - BOCData создана.
+2023-05-10 17:37:35,379 - DEBUG - CreateTable: 95 - HNBData создана.
+2023-05-10 17:37:35,380 - DEBUG - CreateTable: 95 - NBRBData создана.
+2023-05-10 17:37:35,380 - DEBUG - CreateTable: 95 - SNBData создана.
+2023-05-10 17:37:35,380 - DEBUG - CreateTables: 183 - Все таблицы существуют.
+2023-05-10 17:37:35,385 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-10 17:37:35,689 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2054
+2023-05-10 17:37:36,248 - DEBUG - UpdateTable: 173 - CBRData обновлена.
+2023-05-10 17:37:36,252 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-10 17:37:36,482 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-10 17:37:36,978 - DEBUG - UpdateTable: 173 - ECBData обновлена.
+2023-05-10 17:37:36,980 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-10 17:37:37,370 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-10 HTTP/1.1" 200 8940
+2023-05-10 17:37:38,031 - DEBUG - UpdateTable: 173 - NBGData обновлена.
+2023-05-10 17:37:38,034 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-10 17:37:39,473 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-05&end_date=2023-05-10 HTTP/1.1" 200 1188
+2023-05-10 17:37:39,972 - DEBUG - UpdateTable: 173 - BOCData обновлена.
+2023-05-10 17:37:39,976 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): api.hnb.hr:443
+2023-05-10 17:37:41,124 - DEBUG - _make_request: 456 - https://api.hnb.hr:443 "GET /tecajn/v2 HTTP/1.1" 200 None
+2023-05-10 17:37:41,163 - DEBUG - UpdateTable: 173 - HNBData обновлена.
+2023-05-10 17:37:41,170 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-10 17:37:41,346 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-10 17:37:41,689 - DEBUG - UpdateTable: 173 - NBRBData обновлена.
+2023-05-10 17:37:42,369 - DEBUG - UpdateTable: 173 - SNBData обновлена.
+2023-05-10 17:37:42,369 - DEBUG - StartUpdate: 195 - Все таблицы обновлены.
+2023-05-10 17:40:42,376 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-10 17:40:42,632 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2054
+2023-05-10 17:40:43,053 - DEBUG - UpdateTable: 173 - CBRData обновлена.
+2023-05-10 17:40:43,055 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-10 17:40:43,453 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-10 17:40:43,786 - DEBUG - UpdateTable: 173 - ECBData обновлена.
+2023-05-10 17:40:43,788 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-10 17:40:44,081 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-10 HTTP/1.1" 200 8940
+2023-05-10 17:40:44,565 - DEBUG - UpdateTable: 173 - NBGData обновлена.
+2023-05-10 17:40:44,568 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-10 17:40:45,041 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-05&end_date=2023-05-10 HTTP/1.1" 200 1188
+2023-05-10 17:40:45,310 - DEBUG - UpdateTable: 173 - BOCData обновлена.
+2023-05-10 17:40:45,312 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): api.hnb.hr:443
+2023-05-10 17:40:57,798 - DEBUG - _make_request: 456 - https://api.hnb.hr:443 "GET /tecajn/v2 HTTP/1.1" 200 None
+2023-05-10 17:40:57,809 - DEBUG - UpdateTable: 173 - HNBData обновлена.
+2023-05-10 17:40:57,811 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-10 17:49:03,335 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-10 17:49:03,336 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-10 17:49:03,336 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-10 17:49:03,337 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-10 17:49:03,337 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-10 17:49:03,338 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-10 17:49:03,338 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-10 17:49:03,338 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-10 17:49:03,341 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-10 17:49:03,636 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2054
+2023-05-10 17:49:04,152 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-10 17:49:04,155 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-10 17:49:04,388 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-10 17:49:04,692 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-10 17:49:04,694 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-10 17:49:05,063 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-10 HTTP/1.1" 200 8940
+2023-05-10 17:49:05,570 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-10 17:49:05,580 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-10 17:49:06,239 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-05&end_date=2023-05-10 HTTP/1.1" 200 1188
+2023-05-10 17:49:06,453 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-10 17:49:06,455 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): api.hnb.hr:443
+2023-05-10 17:49:06,820 - DEBUG - _make_request: 456 - https://api.hnb.hr:443 "GET /tecajn/v2 HTTP/1.1" 200 None
+2023-05-10 17:49:06,860 - DEBUG - UpdateTable: 176 - HNBData обновлена.
+2023-05-10 17:49:06,862 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-10 20:23:48,647 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-10 20:23:48,648 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-10 20:23:48,648 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-10 20:23:48,649 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-10 20:23:48,649 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-10 20:23:48,649 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-10 20:23:48,650 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-10 20:23:48,650 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-10 20:23:48,654 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-10 20:23:49,049 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2061
+2023-05-10 20:26:36,444 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-10 20:26:36,445 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-10 20:26:36,446 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-10 20:26:36,446 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-10 20:26:36,447 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-10 20:26:36,447 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-10 20:26:36,448 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-10 20:26:36,448 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-10 20:26:36,452 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-10 20:26:36,783 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2061
+2023-05-10 20:26:37,374 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-10 20:26:37,379 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-10 20:26:37,653 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-10 20:26:38,158 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-10 20:26:38,160 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-10 20:26:38,711 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-10 HTTP/1.1" 200 8940
+2023-05-10 20:26:39,523 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-10 20:26:39,530 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-10 20:26:40,764 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-05&end_date=2023-05-10 HTTP/1.1" 200 1188
+2023-05-10 20:26:41,020 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-10 20:26:41,024 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): api.hnb.hr:443
+2023-05-10 20:26:43,799 - DEBUG - _make_request: 456 - https://api.hnb.hr:443 "GET /tecajn/v2 HTTP/1.1" 200 None
+2023-05-10 20:26:43,837 - DEBUG - UpdateTable: 176 - HNBData обновлена.
+2023-05-10 20:26:43,843 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-10 20:26:44,305 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-10 20:26:44,833 - DEBUG - UpdateTable: 176 - NBRBData обновлена.
+2023-05-10 20:26:45,685 - DEBUG - UpdateTable: 176 - SNBData обновлена.
+2023-05-10 20:26:45,686 - DEBUG - StartUpdate: 198 - Все таблицы обновлены.
+2023-05-10 20:32:03,487 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-10 20:32:03,488 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-10 20:32:03,488 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-10 20:32:03,489 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-10 20:32:03,489 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-10 20:32:03,489 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-10 20:32:03,490 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-10 20:32:03,490 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-10 20:32:03,494 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-10 20:32:05,812 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-10 20:32:05,813 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-10 20:32:05,813 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-10 20:32:05,814 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-10 20:32:05,814 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-10 20:32:05,815 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-10 20:32:05,815 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-10 20:32:05,815 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-10 20:32:05,820 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-10 20:32:06,148 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2061
+2023-05-17 10:09:52,638 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-17 10:09:52,640 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-17 10:09:52,641 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-17 10:09:52,641 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-17 10:09:52,641 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-17 10:09:52,642 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-17 10:09:52,642 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-17 10:09:52,643 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-17 10:09:52,647 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-17 10:09:52,934 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2052
+2023-05-17 10:09:53,469 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-17 10:09:53,473 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-17 10:09:53,710 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-17 10:09:54,001 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-17 10:09:54,003 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-17 10:09:54,315 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-17 HTTP/1.1" 200 8921
+2023-05-17 10:09:54,791 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-17 10:09:54,794 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-17 10:09:55,885 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-12&end_date=2023-05-17 HTTP/1.1" 200 1204
+2023-05-17 10:09:56,183 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-17 10:09:56,185 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): api.hnb.hr:443
+2023-05-17 10:09:56,558 - DEBUG - _make_request: 456 - https://api.hnb.hr:443 "GET /tecajn/v2 HTTP/1.1" 200 None
+2023-05-17 10:09:56,577 - DEBUG - UpdateTable: 176 - HNBData обновлена.
+2023-05-17 10:09:56,583 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-17 10:09:56,720 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-17 10:09:57,052 - DEBUG - UpdateTable: 176 - NBRBData обновлена.
+2023-05-17 10:09:57,713 - DEBUG - UpdateTable: 176 - SNBData обновлена.
+2023-05-17 10:09:57,713 - DEBUG - StartUpdate: 198 - Все таблицы обновлены.
+2023-05-17 10:12:57,718 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-17 10:12:57,941 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2052
+2023-05-17 10:12:58,453 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-17 10:12:58,459 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-17 10:12:58,667 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-17 10:12:59,254 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-17 10:12:59,256 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-17 10:12:59,486 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-17 HTTP/1.1" 200 8921
+2023-05-17 10:12:59,964 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-17 10:12:59,967 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-17 10:13:00,265 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-12&end_date=2023-05-17 HTTP/1.1" 200 1204
+2023-05-17 10:13:00,608 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-17 10:13:00,610 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): api.hnb.hr:443
+2023-05-17 10:13:00,866 - DEBUG - _make_request: 456 - https://api.hnb.hr:443 "GET /tecajn/v2 HTTP/1.1" 200 None
+2023-05-17 10:13:00,884 - DEBUG - UpdateTable: 176 - HNBData обновлена.
+2023-05-17 10:13:00,890 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-17 10:13:01,044 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-17 10:13:01,605 - DEBUG - UpdateTable: 176 - NBRBData обновлена.
+2023-05-17 10:13:02,216 - DEBUG - UpdateTable: 176 - SNBData обновлена.
+2023-05-17 10:13:02,216 - DEBUG - StartUpdate: 198 - Все таблицы обновлены.
+2023-05-17 10:16:02,222 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-17 10:16:02,429 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2052
+2023-05-17 10:16:02,976 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-17 10:16:02,978 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-17 10:16:03,132 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-17 10:16:03,420 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-17 10:16:03,423 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-17 10:16:03,675 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-17 HTTP/1.1" 200 8921
+2023-05-17 10:16:04,077 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-17 10:16:04,080 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-17 10:16:04,328 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-12&end_date=2023-05-17 HTTP/1.1" 200 1204
+2023-05-17 10:16:04,630 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-17 10:16:04,632 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): api.hnb.hr:443
+2023-05-17 10:16:04,883 - DEBUG - _make_request: 456 - https://api.hnb.hr:443 "GET /tecajn/v2 HTTP/1.1" 200 None
+2023-05-17 10:16:04,913 - DEBUG - UpdateTable: 176 - HNBData обновлена.
+2023-05-17 10:16:04,918 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-17 10:16:05,099 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-17 10:16:05,516 - DEBUG - UpdateTable: 176 - NBRBData обновлена.
+2023-05-17 10:16:06,036 - DEBUG - UpdateTable: 176 - SNBData обновлена.
+2023-05-17 10:16:06,036 - DEBUG - StartUpdate: 198 - Все таблицы обновлены.
+2023-05-17 10:16:35,151 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-17 10:16:35,151 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-17 10:16:35,152 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-17 10:16:35,152 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-17 10:16:35,153 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-17 10:16:35,153 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-17 10:16:35,154 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-17 10:16:35,154 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-17 10:16:35,157 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-17 10:16:35,372 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2052
+2023-05-17 10:16:35,914 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-17 10:16:35,920 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-17 10:16:36,126 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-17 10:16:36,485 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-17 10:16:36,487 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-17 10:16:36,721 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-17 HTTP/1.1" 200 8921
+2023-05-17 10:16:37,346 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-17 10:16:37,354 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-17 10:16:37,625 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-12&end_date=2023-05-17 HTTP/1.1" 200 1204
+2023-05-17 10:16:38,033 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-17 10:16:38,039 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-17 10:16:38,194 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-17 10:16:38,800 - DEBUG - UpdateTable: 176 - NBRBData обновлена.
+2023-05-17 10:16:39,304 - DEBUG - UpdateTable: 176 - SNBData обновлена.
+2023-05-17 10:16:39,304 - DEBUG - StartUpdate: 198 - Все таблицы обновлены.
+2023-05-17 10:19:30,288 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-17 10:19:30,290 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-17 10:19:30,292 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-17 10:19:30,293 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-17 10:19:30,295 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-17 10:19:30,296 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-17 10:19:30,297 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-17 10:19:30,298 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-17 10:19:30,307 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-17 10:19:30,519 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2052
+2023-05-17 10:19:31,147 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-17 10:19:31,150 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-17 10:19:31,324 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-17 10:19:31,590 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-17 10:19:31,593 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-17 10:19:31,818 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-17 HTTP/1.1" 200 8921
+2023-05-17 10:19:32,441 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-17 10:19:32,448 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-17 10:19:32,793 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-12&end_date=2023-05-17 HTTP/1.1" 200 1204
+2023-05-17 10:19:33,221 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-17 10:19:33,226 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-17 10:19:33,395 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-17 10:19:33,834 - DEBUG - UpdateTable: 176 - NBRBData обновлена.
+2023-05-17 10:19:34,331 - DEBUG - UpdateTable: 176 - SNBData обновлена.
+2023-05-17 10:19:34,336 - DEBUG - StartUpdate: 199 - Все таблицы обновлены.
+2023-05-17 10:20:01,121 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-17 10:20:01,121 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-17 10:20:01,122 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-17 10:20:01,122 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-17 10:20:01,122 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-17 10:20:01,123 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-17 10:20:01,123 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-17 10:20:01,123 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-17 10:20:01,126 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-17 10:20:01,347 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2052
+2023-05-17 10:20:01,838 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-17 10:20:01,840 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-17 10:20:02,029 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-17 10:20:02,258 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-17 10:20:02,261 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-17 10:20:02,468 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-17 HTTP/1.1" 200 8921
+2023-05-17 10:20:02,998 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-17 10:20:03,001 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-17 10:20:03,312 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-12&end_date=2023-05-17 HTTP/1.1" 200 1204
+2023-05-17 10:20:03,639 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-17 10:20:03,642 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): api.hnb.hr:443
+2023-05-17 10:20:03,882 - DEBUG - _make_request: 456 - https://api.hnb.hr:443 "GET /tecajn/v2 HTTP/1.1" 200 None
+2023-05-17 10:20:03,899 - DEBUG - UpdateTable: 176 - HNBData обновлена.
+2023-05-17 10:20:03,905 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-17 10:20:04,073 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-17 10:20:04,393 - DEBUG - UpdateTable: 176 - NBRBData обновлена.
+2023-05-17 10:20:04,967 - DEBUG - UpdateTable: 176 - SNBData обновлена.
+2023-05-17 10:20:04,975 - DEBUG - StartUpdate: 199 - Все таблицы обновлены.
+2023-05-18 17:09:35,109 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-18 17:09:35,109 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-18 17:09:35,109 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-18 17:09:35,109 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-18 17:09:35,109 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-18 17:09:35,109 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-18 17:09:35,109 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-18 17:09:35,109 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-18 17:09:35,109 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-18 17:09:35,343 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2049
+2023-05-18 17:09:35,843 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-18 17:09:35,843 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-18 17:09:36,014 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-18 17:09:36,451 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-18 17:09:36,451 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443
+2023-05-18 17:09:36,763 - DEBUG - _make_request: 456 - https://nbg.gov.ge:443 "GET /gw/api/ct/monetarypolicy/currencies/en/json/?date=2023-05-18 HTTP/1.1" 200 8964
+2023-05-18 17:09:37,371 - DEBUG - UpdateTable: 176 - NBGData обновлена.
+2023-05-18 17:09:37,387 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2023-05-18 17:09:38,276 - DEBUG - _make_request: 456 - https://www.bankofcanada.ca:443 "GET /valet/observations/FXAUDCAD,FXBRLCAD,FXCNYCAD,FXEURCAD,FXHKDCAD,FXINRCAD,FXIDRCAD,FXJPYCAD,FXMYRCAD,FXMXNCAD,FXNZDCAD,FXNOKCAD,FXPENCAD,FXRUBCAD,FXSARCAD,FXSGDCAD,FXZARCAD,FXKRWCAD,FXSEKCAD,FXCHFCAD,FXTWDCAD,FXTHBCAD,FXTRYCAD,FXGBPCAD,FXUSDCAD,FXVNDCAD/json?start_date=2023-05-13&end_date=2023-05-18 HTTP/1.1" 200 1205
+2023-05-18 17:09:38,666 - DEBUG - UpdateTable: 176 - BOCData обновлена.
+2023-05-18 17:09:38,666 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.nbrb.by:443
+2023-05-18 17:09:38,916 - DEBUG - _make_request: 456 - https://www.nbrb.by:443 "GET /api/exrates/rates?periodicity=0 HTTP/1.1" 200 4670
+2023-05-18 17:09:39,306 - DEBUG - UpdateTable: 176 - NBRBData обновлена.
+2023-05-18 17:09:39,992 - DEBUG - UpdateTable: 176 - SNBData обновлена.
+2023-05-18 17:09:39,992 - DEBUG - StartUpdate: 198 - Все таблицы обновлены.
+2023-05-29 18:33:43,083 - DEBUG - CreateTable: 98 - ECBData создана.
+2023-05-29 18:33:43,083 - DEBUG - CreateTable: 98 - CBRData создана.
+2023-05-29 18:33:43,083 - DEBUG - CreateTable: 98 - NBGData создана.
+2023-05-29 18:33:43,083 - DEBUG - CreateTable: 98 - BOCData создана.
+2023-05-29 18:33:43,083 - DEBUG - CreateTable: 98 - HNBData создана.
+2023-05-29 18:33:43,083 - DEBUG - CreateTable: 98 - NBRBData создана.
+2023-05-29 18:33:43,083 - DEBUG - CreateTable: 98 - SNBData создана.
+2023-05-29 18:33:43,083 - DEBUG - CreateTables: 186 - Все таблицы существуют.
+2023-05-29 18:33:43,083 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+2023-05-29 18:33:43,380 - DEBUG - _make_request: 456 - https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2041
+2023-05-29 18:33:43,972 - DEBUG - UpdateTable: 176 - CBRData обновлена.
+2023-05-29 18:33:43,972 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2023-05-29 18:33:44,316 - DEBUG - _make_request: 456 - https://www.ecb.europa.eu:443 "GET /stats/eurofxref/eurofxref-daily.xml HTTP/1.1" 200 None
+2023-05-29 18:33:44,628 - DEBUG - UpdateTable: 176 - ECBData обновлена.
+2023-05-29 18:33:44,643 - DEBUG - _new_conn: 1003 - Starting new HTTPS connection (1): nbg.gov.ge:443

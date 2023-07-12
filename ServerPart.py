@@ -13,7 +13,10 @@ NBRBLink= "https://www.nbrb.by/api/exrates/rates?periodicity=0"
 SNBLink = "https://www.snb.ch/selector/en/mmr/exfeed/rss"
 
 # Настройка Логгера
-logging.basicConfig(level=logging.DEBUG,filename="mylog.log",format = "%(asctime)s - %(levelname)s - %(funcName)s: %(lineno)d - %(message)s")
+logging.basicConfig(
+    level=logging.DEBUG,
+    filename="mylog.log",
+    format = "%(asctime)s - %(levelname)s - %(funcName)s: %(lineno)d - %(message)s")
 
 def SQLExecute(Command):
     db = sqlite3.connect('currencies.db')
@@ -189,7 +192,7 @@ def StartUpdate():
         UpdateTable("ECBData")
         UpdateTable("NBGData")
         UpdateTable("BOCData")
-        UpdateTable("HNBData")
+        #UpdateTable("HNBData")
         UpdateTable("NBRBData")
         UpdateTable("SNBData")
         logging.debug("Все таблицы обновлены.")
@@ -199,6 +202,8 @@ def StartUpdate():
 print("Запуск успешен")
 CreateTables()
 StartUpdate()
+
+
 
 
 
